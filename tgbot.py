@@ -11,7 +11,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, FSInputFil
 
 OWNER_ID = 141230163
 TOKEN = "8584190260:AAFpwFdaHFBroUeBmS6EszIh-kDAGAMppRE"
-SUPPORT_USERNAME = "@Birger_Support"
+SUPPORT_USERNAME = "@@g_gggggg_g"
 SUPPORT_URL = "https://t.me/BreakLegenda"
 CHANNEL_ID = -1003830241596
 CHANNEL_URL = "https://t.me/BreakLegenda"
@@ -269,3 +269,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
