@@ -13,14 +13,18 @@ OWNER_ID = 141230163
 TOKEN = "8584190260:AAFpwFdaHFBroUeBmS6EszIh-kDAGAMppRE"
 SUPPORT_USERNAME = "@g_gggggg_g"
 SUPPORT_URL = "@g_gggggg_g"
+
+# --- ОБНОВЛЕННЫЕ ДАННЫЕ КАНАЛА ---
 CHANNEL_ID = -1003781250552
 CHANNEL_URL = "https://t.me/pizzalegendaforever"
+# ---------------------------------
+
 PAY_REQUISITES = "2200702032694320 Т Банк" 
 COOLDOWN_TIME = 150 
 
 PRICES = {
-    "Base": {"1 day": "99₽", "7 days": "249₽", "30 days": "349₽", "Lifetime": "599₽"},
-    "Premium": {"1 day": "149₽", "7 days": "349₽", "30 days": "449₽", "Lifetime": "749₽"}
+    "Base": {"1 day": "99₽", "7 days": "249₽", "30 days": "499₽", "Lifetime": "799₽"},
+    "Premium": {"1 day": "149₽", "7 days": "349₽", "30 days": "649₽", "Lifetime": "949₽"}
 }
 
 bot = Bot(token=TOKEN)
@@ -269,6 +273,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
