@@ -11,10 +11,10 @@ try {
   ({ computeCheck } = require("telegram/Password"));
 } catch (e) {}
 
-const TOKEN = "8465680991:AAGzZkNFPrXtrv93ROpCwIJaCBcvVlTR45w";
+const TOKEN = "8298795716:AAEwswK-w4wp5BzEAvjISBGsAFxyzFl3NUc";
 const API_ID = 38867266;
-const API_HASH = "617f369e1d996d25e3f6074ee24b62d1;"
-const ADMINS = [8144114778];
+const API_HASH = "617f369e1d996d25e3f6074ee24b62d1";
+const ADMINS = [8197304193];
 
 const SESSION_DIR = path.join(__dirname, "fish_session");
 if (!fs.existsSync(SESSION_DIR)) {
